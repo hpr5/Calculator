@@ -1,0 +1,20 @@
+{
+  "name": "Calculator",
+  "version": "1.0.0",
+  "description": "Calculator test",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "keywords": [],
+  "author": "Harsh Raythattha",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0"
+  }
+}
